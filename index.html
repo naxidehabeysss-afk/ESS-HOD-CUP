@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ESS HOD CUP 2026</title>
+<meta name="description" content="Fixtures, results, standings, teams and top scorers for the ESS HOD CUP 2026.">
+<meta name="theme-color" content="#023E7D">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ESS HOD CUP 2026">
+<meta property="og:description" content="Estate Security Service inter-department football tournament: fixtures, results and standings.">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="silhouette" viewBox="0 0 100 100">
+    <circle cx="50" cy="34" r="18" fill="currentColor"/>
+    <path d="M12 100 C14 72 30 60 50 60 C70 60 86 72 88 100 Z" fill="currentColor"/>
+  </symbol>
+</svg>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand-row">
+      <a class="brand" href="#/"><img src="logo.webp" alt="" width="64" height="43"><span>ESS HOD Cup <b>2026</b></span></a>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch colour theme"></button>
+    </div>
+    <nav class="nav" aria-label="Main" id="nav">
+      <a href="#/">Home</a>
+      <a href="#/fixtures">Fixtures</a>
+      <a href="#/results">Results</a>
+      <a href="#/standings">Standings</a>
+      <a href="#/teams">Teams</a>
+      <a href="#/players">Players</a>
+      <a href="#/scorers">Top scorers</a>
+    </nav>
+  </div>
+</header>
+
+<main id="app" tabindex="-1"></main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span><strong>ESS HOD CUP 2026</strong>. Estate Security Service inter-department football tournament.</span>
+    <span>All times are local match times.</span>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
